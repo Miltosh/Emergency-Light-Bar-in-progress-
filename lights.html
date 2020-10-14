@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="buttons">
+            <button id="mode1">Mode 1</button>
+            <button id="blueLightsMode">Red Lights</button>
+            <button id="redLightsMode">Blue Lights</button>
+            <button id="duoOddEvenLightsMode">Duo Odd/Even Lights</button>
+            <button id="singleOddEvenLightsMode">Single Odd/Even Lights</button>
+            <button id="leftToRight">Left to Right</button>
+            <button id="rightToLeft">Right to Left</button>
+            <button id="onlySides">Only Sides</button>
+            <button id="stop">Off</button>
+        </div>
+        <div class="car">
+
+            <div class="lightbar">
+                <div class="lights mode2">
+                    <div class="bar blue" id='odd'></div>
+                    <div class="bar blue" id='even'></div>
+                    <div class="bar blue" id='odd'></div>
+                </div>
+
+                <div class="lights mode2">
+                    <div class="bar red" id='even'></div>
+                    <div class="bar red" id='odd'></div>
+                    <div class="bar red" id='even'></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

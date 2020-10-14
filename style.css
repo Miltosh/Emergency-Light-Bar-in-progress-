@@ -1,0 +1,133 @@
+body{
+  background: #031321;
+}
+
+.container{
+  display: flex;
+}
+.car{
+  background: url(police-car-front-transparent.png) no-repeat;
+  height: 746px;
+  width: 860px;
+  margin: auto;
+  display: inline-block;
+}
+button{
+  display: block;
+}
+.buttons{
+  display: inline-grid;
+}
+
+.lightbar{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+.lights{
+  margin: 49px 67px 0 63px;
+}
+.lights:nth-child(odd) .bar{
+  margin-left: 6px;
+}
+.lights:nth-child(even) .bar{
+  margin-right: 6px;
+}
+
+.bar {
+    display: inline-block;
+    width: 42px;
+    height: 25px;
+    /* background-color: #eee;
+    opacity: 0.6; */
+    border-radius: 5px;
+    transition: .05s;
+  }
+
+  
+
+  .red.active{
+    background-color: #ff0000;
+    box-shadow: 
+		0 0 100px #ff0000,
+    0 0 100px #ff0000,
+    0 0 100px #ff0000,
+		0 0 100px #ff0000,
+		0 0 100px #ff0000;
+    transition: .05s;
+  }
+  .blue.active{
+    background-color: blue;
+    box-shadow: 
+    0 0 100px blue,
+    0 0 100px blue,
+		0 0 100px blue,
+		0 0 100px blue,
+		0 0 100px blue;
+    transition: .05s;
+  }
+  
+  .active>.bar.red {
+    background-color: #ff0000;
+    box-shadow: 
+    0 0 100px #ff0000,
+    0 0 100px #ff0000,
+		0 0 100px #ff0000,
+		0 0 100px #ff0000,
+		0 0 100px #ff0000;
+    transition: .05s;
+  }
+  .active>.bar.blue {
+    background-color: blue;
+    box-shadow: 
+    0 0 100px blue,
+    0 0 100px blue,
+		0 0 100px blue,
+		0 0 100px blue,
+		0 0 100px blue;
+    transition: .05s;
+  }
+
+  .odd>#odd.red {
+    background-color: #ff0000;
+    box-shadow: 
+    0 0 100px #ff0000,
+    0 0 100px #ff0000,
+		0 0 100px #ff0000,
+		0 0 100px #ff0000,
+		0 0 100px #ff0000;
+    transition: .05s;
+  }
+
+  .odd>#odd.blue {
+    background-color: blue;
+    box-shadow: 
+    0 0 100px blue,
+    0 0 100px blue,
+		0 0 100px blue,
+		0 0 100px blue,
+		0 0 100px blue;
+    transition: .05s;
+  }
+
+  .even>#even.red {
+    background-color: #ff0000;
+    box-shadow: 
+    0 0 100px #ff0000,
+    0 0 100px #ff0000,
+		0 0 100px #ff0000,
+		0 0 100px #ff0000,
+		0 0 100px #ff0000;
+    transition: .05s;
+  }
+
+  .even>#even.blue {
+    background-color: blue;
+    box-shadow: 
+    0 0 100px blue,
+    0 0 100px blue,
+		0 0 100px blue,
+		0 0 100px blue,
+		0 0 100px blue;
+    transition: .05s;
+  }
